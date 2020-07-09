@@ -83,11 +83,11 @@ b {
   padding-bottom: 1.8rem;
 }
 
-.intro a {
+a {
   color: black !important;
 }
 
-.intro svg.svg-inline--fa {
+svg.svg-inline--fa {
   font-size: 1.5rem !important;
   margin: 1rem !important;
 }
