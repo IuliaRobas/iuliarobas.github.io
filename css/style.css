@@ -83,6 +83,15 @@ b {
   padding-bottom: 1.8rem;
 }
 
+.intro a {
+  color: black !important;
+}
+
+.intro svg.svg-inline--fa {
+  font-size: 1.5rem !important;
+  margin: 1rem !important;
+}
+
 #about a {
   color: black;
 }
@@ -285,15 +294,6 @@ footer {
 footer img {
   height: 3.5rem;
   margin: 1.5rem 0;
-}
-
-a {
-  color: black !important;
-}
-
-svg.svg-inline--fa {
-  font-size: 1.5rem !important;
-  margin: 1rem !important;
 }
 
 .intro footer svg.svg-inline--fa:hover {
