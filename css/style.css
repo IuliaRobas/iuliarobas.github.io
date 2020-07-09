@@ -287,13 +287,13 @@ footer img {
   margin: 1.5rem 0;
 }
 
-.intro a {
-  color: black;
+a {
+  color: black !important;
 }
 
-.intro svg.svg-inline--fa {
-  font-size: 1.5rem;
-  margin: 1rem;
+svg.svg-inline--fa {
+  font-size: 1.5rem !important;
+  margin: 1rem !important;
 }
 
 .intro footer svg.svg-inline--fa:hover {
