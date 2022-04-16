@@ -1,4 +1,4 @@
 function openMail() {
-    event.preventDefault();
-    window.open('mailto:iulia.robas@yahoo.com');
+  event.preventDefault();
+  window.open("mailto:robasiulia@gmail.com");
 }
