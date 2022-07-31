@@ -306,6 +306,12 @@ footer img {
   color: rgba(0, 0, 0, 0.8) !important;
 }
 
+.row-intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 /* CONTACT SECTION :  END */
 
 @media screen and (max-width: 900px) {
@@ -314,7 +320,7 @@ footer img {
     letter-spacing: 0.3rem;
     padding-bottom: 0.5rem;
   }
-
+  .row-intro{margin-left: 0px;margin-right: 0px;}
   .intro h3 {
     font-size: 1.2rem;
     letter-spacing: 0.05rem;
