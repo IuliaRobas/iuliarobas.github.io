@@ -6,7 +6,11 @@ body {
   color: #222222;
   letter-spacing: 0.15rem;
 }
-
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .offset:before {
   display: block;
   content: "";
@@ -380,6 +384,8 @@ footer img {
   a {
     font-size: 1rem;
   }
+
+  .padding5 {padding:5rem 0 5rem}
 
   .jumbotron p {
     font-size: 0.75rem;
