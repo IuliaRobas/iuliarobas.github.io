@@ -6,10 +6,9 @@ body {
   color: #222222;
   letter-spacing: 0.15rem;
 }
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .offset:before {
   display: block;
@@ -63,9 +62,10 @@ b {
 }
 
 .intro {
-  width: 100%;
-  max-width: 100%;
+width: 100%;
   position: absolute;
+  left:0;
+  right:0;
   top: 38%;
   z-index: 1;
   color: black;
