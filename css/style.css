@@ -6,9 +6,10 @@ body {
   color: #222222;
   letter-spacing: 0.15rem;
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .offset:before {
   display: block;
@@ -56,15 +57,15 @@ b {
 }
 
 .landing-inner {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   opacity: 40%;
   height: 100vh;
 }
 
 .intro {
   position: absolute;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   top: 38%;
   z-index: 1;
   color: black;
@@ -82,7 +83,6 @@ b {
 .intro h3 {
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  text-shadow: 0.1rem 0.1rem 0.1rem #575757;
   padding-bottom: 1.8rem;
 }
 
@@ -235,7 +235,7 @@ blockquote svg.svg-inline--fa {
   border-radius: 0;
   background-color: #dddddd;
   color: rgb(0, 0, 0);
-  padding:2rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .technologies h3 {
@@ -311,7 +311,6 @@ footer img {
   flex-wrap: wrap;
 }
 
-
 /* CONTACT SECTION :  END */
 
 @media screen and (max-width: 900px) {
@@ -320,7 +319,10 @@ footer img {
     letter-spacing: 0.3rem;
     padding-bottom: 0.5rem;
   }
-  .row-intro{margin-left: 0px;margin-right: 0px;}
+  .row-intro {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .intro h3 {
     font-size: 1.2rem;
     letter-spacing: 0.05rem;
@@ -390,7 +392,9 @@ footer img {
     font-size: 1rem;
   }
 
-  .padding5 {padding:5rem 0 5rem}
+  .padding5 {
+    padding: 5rem 0 5rem;
+  }
 
   .jumbotron p {
     font-size: 0.75rem;
